@@ -30,11 +30,7 @@ root.render(
    <Route path="/contact" element={<Contact />} />
    <Route path="/acount" element={<Account />} />
    <Route path="/*" element={<PageNotFound />} />
-
-
    </Routes>
-  
-  
    </Provider>
    <Toaster />
    </HashRouter>
