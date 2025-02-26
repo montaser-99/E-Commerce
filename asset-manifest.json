@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/E-Commerce.git/static/css/main.7fae7dc9.css",
+    "main.js": "/E-Commerce.git/static/js/main.46ca4a86.js",
+    "static/media/slick.svg": "/E-Commerce.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/E-Commerce.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/E-Commerce.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/E-Commerce.git/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/E-Commerce.git/index.html",
+    "main.7fae7dc9.css.map": "/E-Commerce.git/static/css/main.7fae7dc9.css.map",
+    "main.46ca4a86.js.map": "/E-Commerce.git/static/js/main.46ca4a86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7fae7dc9.css",
+    "static/js/main.46ca4a86.js"
+  ]
+}
