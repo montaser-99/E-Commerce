@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-1 {
+  width: 243px;
+  height: 56px;
+  gap: 10px;
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-right: 48px;
+  padding-bottom: 16px;
+  padding-left: 48px;
+  background-color: #DB4444;
+  color: white
+}
+
+.btn-2 {
+  width: 171;
+  height: 56;
+  top: 375px;
+  left: 56px;
+  gap: 10px;
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-right: 48px;
+  padding-bottom: 16px;
+  padding-left: 48px;
+  background-color: #00FF66;
+  border: none;
+  color: white;
+
+}
+
+/* Hide Add to Cart button by default */
+.btn-add-cart {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show button on hover */
+.hover-card:hover .btn-add-cart {
+  opacity: 1;
+}
+
+.card-img-overlay i:hover {
+  color: #DB4444;
+  /* Change to red on hover */
+}
+
+.category-div:hover {
+  background-color: #DB4444;
+  color: white
+}
+
+.category-div img {
+  transition: all 0.3s ease;
+}
+
+.category-div:hover img {
+  filter: brightness(0) invert(1);
+}
+
+/*  */
+.card {
+  position: relative;
+}
+
+.card-img-top {
+  background-color: #F5F5F5
+}
+
+.add-to-cart-button {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: none;
+  /* Initially hidden */
+  cursor: pointer;
+  width: 100%;
+  height: 41px;
+  position: absolute;
+  bottom: 0;
+}
+
+.img-div {
+  position: relative;
+}
+
+.card-body {
+  position: relative;
+  /* Make card-body a positioning context */
+}
+
+.card:hover .add-to-cart-button {
+  display: block;
+  /* Show on hover */
+}
+
+/* ////////// */
+.about-div:hover {
+  background-color: #DB4444;
+  color: white
+}
+
+.about-div img {
+  transition: all 0.3s ease;
+}
+
+.about-div:hover img {
+  filter: brightness(1) invert(1);
+}
+
+button {
+  pointer-events: all !important;
+  z-index: 1000 !important;
+}
+
+footer {
+  background-color: #000000;
+  height: 440px;
+  bottom: 0;
+}
+
+.fa-cart-shopping {
+  position: relative;
+}
+
+.icon span {
+  height: 28px;
+  width: 20px;
+  position: absolute;
+  top: -15px;
+  font-size: 14px;
+}
